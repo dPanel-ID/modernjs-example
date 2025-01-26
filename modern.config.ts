@@ -5,6 +5,16 @@ export default defineConfig({
   runtime: {
     router: true,
   },
+  output: {
+    distPath: {
+      js: '',
+      css: '',
+      html: '',
+    },
+  },
+  html: {
+    disableHtmlFolder: true,
+  },
   plugins: [
     appTools({
       bundler: 'rspack', // Set to 'webpack' to enable webpack
