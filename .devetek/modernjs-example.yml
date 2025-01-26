@@ -13,6 +13,7 @@ build:
       steps:
         - name: "Build Modern.js Example"
           command:
+            - pnpm i
             - pnpm run build
 
 run:
