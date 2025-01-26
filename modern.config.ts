@@ -6,6 +6,9 @@ export default defineConfig({
     router: true,
   },
   output: {
+    filename: {
+      html: 'index.html',
+    },
     distPath: {
       js: '',
       css: '',
