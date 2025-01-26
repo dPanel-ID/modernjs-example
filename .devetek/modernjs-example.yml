@@ -19,3 +19,4 @@ build:
 run:
   name: modernjs-example
   description: ModernJS build to VPS thorugh dPanel
+  no_service: true
